@@ -1,8 +1,7 @@
 
 ##
 ## Question:
-## Across the United States, how have emissions from coal combustion-related sources changed 
-## from 1999-2008?
+## How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
 ##  
 ##
 
@@ -43,7 +42,7 @@ sumYearOnroadDf <- data.frame(year = names(sumYear),sum = sumYear)
 png(filename = "plot5.png")
 
 barplot(sumYearOnroadDf$sum,
-        main = "total PM2.5 emission from motor vehicle sources (ON-ROAD)", 
+        main = "total PM2.5 emission from motor vehicle sources (ON-ROAD) \n in Baltimore City", 
         xlab = "Year",
         ylab = "total PM2.5 emission [ton]")
 

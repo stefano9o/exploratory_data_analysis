@@ -60,7 +60,7 @@ g <- ggplot(sumYearTypesDf,
         ) + 
         geom_point() + 
         geom_line() +
-        labs(title = "total PM2.5 emission from Baltimora City (for each type of source)",
+        labs(title = "total PM2.5 emission from Baltimore City (for each type of source)",
              x = "year",
              y = "total PM2.5 emission [ton]")
 print(g)

@@ -39,7 +39,7 @@ sumYearDfBal <- data.frame(year = names(sumYear),sum = sumYear)
 png(filename = "plot2.png")
 
 barplot(sumYearDfBal$sum,
-        main = "total PM2.5 emissions from Baltimora City", 
+        main = "total PM2.5 emissions from Baltimore City", 
         xlab = "Year",
         ylab = "total PM2.5 emission [ton]")
 
